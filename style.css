@@ -1,8 +1,35 @@
 
+
+body{
+background-color: rgb(87, 87, 206);
+background-size: cover;
+background-repeat: no-repeat;
+}
 .container{
 
-    background: blueviolet;
+    background:rgb(196, 102, 102);
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
 }
 
+
+    .carrocel{
+        width: 69vw;
+        height: 50vw;
+
+    }
+    .sobremim{
+        background: blueviolet;
+      width: 69vw;
+      height: 100vh;
+      display: flex;
+      justify-content: space-around;
+     flex-direction: column;
+     margin: 0%;
+    }
+
+    .sobremim>p{
+
+        font-size: 25px;
+        color: aqua;
+    }
