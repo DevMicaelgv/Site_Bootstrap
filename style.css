@@ -1,35 +1,44 @@
-
-
-body{
-background-color: rgb(87, 87, 206);
+ body{
+background-image: url("https://images.unsplash.com/photo-1698933801470-3342e52cf191?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTh8fHxlbnwwfHx8fHw%3D");
+background-repeat:no-repeat ;
 background-size: cover;
-background-repeat: no-repeat;
+
+ }
+ 
+ 
+ main{
+
+width: 90vh;
+height: 50vw;
+   
 }
-.container{
 
-    background:rgb(196, 102, 102);
-    width: 100vw;
-    height: 100vh;
+
+.visor{
+   display: flex;
+   width: 138vh;
+   height: 48vw;
+   justify-content: center;
+   align-items: center;
+
+
+
 }
 
+.tela{
+background-color: white;
+width: 80vh;
+height: 80vh;
 
-    .carrocel{
-        width: 69vw;
-        height: 50vw;
+}
+.tela>img{
 
-    }
-    .sobremim{
-        background: blueviolet;
-      width: 69vw;
-      height: 100vh;
-      display: flex;
-      justify-content: space-around;
-     flex-direction: column;
-     margin: 0%;
-    }
+   width: 80vh;
+   height: 40vw;
+}
+.sobre{
+display: inline-block;
+background-color: black;
 
-    .sobremim>p{
+}
 
-        font-size: 25px;
-        color: aqua;
-    }
